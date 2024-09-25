@@ -1,0 +1,127 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "Hello",
+          "Good morning",
+          "Good afternoon"
+        ],
+        "responses": [
+          "Hello! How can I assist you today?",
+          "Hi there! What can I do for you?",
+          "Hey! How can I help?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": [
+          "Bye",
+          "See you later",
+          "Goodbye",
+          "I have to go"
+        ],
+        "responses": [
+          "Goodbye! Have a great day!",
+          "See you later! Take care!",
+          "Bye! Feel free to reach out if you need anything."
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": [
+          "Thanks",
+          "Thank you",
+          "Thanks a lot",
+          "I appreciate it"
+        ],
+        "responses": [
+          "You're welcome!",
+          "No problem at all!",
+          "Glad I could help!"
+        ]
+      },
+      {
+        "tag": "help",
+        "patterns": [
+          "I need help",
+          "Can you assist me?",
+          "Can you help?",
+          "I need support"
+        ],
+        "responses": [
+          "Of course! What do you need help with?",
+          "Sure, I’m here to help! What can I do for you?",
+          "I'm happy to assist. Please tell me more."
+        ]
+      },
+      {
+        "tag": "name",
+        "patterns": [
+          "What is your name?",
+          "Who are you?",
+          "May I know your name?"
+        ],
+        "responses": [
+          "I’m a chatbot here to assist you!",
+          "You can call me your virtual assistant.",
+          "I'm a friendly chatbot at your service."
+        ]
+      },
+      {
+        "tag": "hours",
+        "patterns": [
+          "What are your working hours?",
+          "When are you available?",
+          "Are you available 24/7?"
+        ],
+        "responses": [
+          "I’m available 24/7 to assist you!",
+          "I’m here whenever you need help, day or night.",
+          "I operate around the clock!"
+        ]
+      },
+      {
+        "tag": "location",
+        "patterns": [
+          "Where are you located?",
+          "Where is your office?",
+          "What is your location?"
+        ],
+        "responses": [
+          "I'm a virtual assistant, available anywhere you are!",
+          "I don’t have a physical location, but I’m here for you online!",
+          "My location is wherever you need assistance."
+        ]
+      },
+      {
+        "tag": "services",
+        "patterns": [
+          "What services do you offer?",
+          "How can you help me?",
+          "What can you do?"
+        ],
+        "responses": [
+          "I can assist you with various queries, tasks, and information. How can I help you today?",
+          "I offer assistance with questions, tasks, and information. What would you like help with?",
+          "I can help with a range of services. Let me know what you need!"
+        ]
+      },
+      {
+        "tag": "payment",
+        "patterns": [
+          "What payment methods do you accept?",
+          "How can I pay?",
+          "What are your payment options?"
+        ],
+        "responses": [
+          "We accept credit cards, PayPal, and other popular payment methods.",
+          "You can make payments via various options including PayPal and credit cards.",
+          "Our payment options include credit cards and PayPal."
+        ]
+      }
+    ]
+  }
+  

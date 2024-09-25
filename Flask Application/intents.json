@@ -1,0 +1,231 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "Hello",
+        "Good morning",
+        "Good afternoon",
+        "Greetings",
+        "Howdy",
+        "Hi there",
+        "Hello there"
+      ],
+      "responses": [
+        "Hello! How can I assist you today?",
+        "Hi there! What can I do for you?",
+        "Hey! How can I help?",
+        "Good day! How may I assist you?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye",
+        "I have to go",
+        "Catch you later",
+        "Take care",
+        "Talk to you soon",
+        "See ya"
+      ],
+      "responses": [
+        "Goodbye! Have a great day!",
+        "See you later! Take care!",
+        "Bye! Feel free to reach out if you need anything.",
+        "Catch you next time! Stay safe!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "Thanks a lot",
+        "I appreciate it",
+        "Many thanks",
+        "Thanks so much",
+        "You're the best",
+        "Much appreciated"
+      ],
+      "responses": [
+        "You're welcome!",
+        "No problem at all!",
+        "Glad I could help!",
+        "Anytime! I'm happy to assist."
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "I need help",
+        "Can you assist me?",
+        "Can you help?",
+        "I need support",
+        "Help me out",
+        "I could use some help",
+        "Can you provide assistance?",
+        "I need assistance"
+      ],
+      "responses": [
+        "Of course! What do you need help with?",
+        "Sure, I’m here to help! What can I do for you?",
+        "I'm happy to assist. Please tell me more.",
+        "Let me know what you need, and I'll do my best to help."
+      ]
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "What is your name?",
+        "Who are you?",
+        "May I know your name?",
+        "What's your name?",
+        "Who am I speaking with?",
+        "Tell me your name"
+      ],
+      "responses": [
+        "I’m a chatbot here to assist you!",
+        "You can call me your virtual assistant.",
+        "I'm a friendly chatbot at your service.",
+        "I’m your helpful virtual assistant."
+      ]
+    },
+    {
+      "tag": "hours",
+      "patterns": [
+        "What are your working hours?",
+        "When are you available?",
+        "Are you available 24/7?",
+        "What time do you work?",
+        "Can I reach you at any time?"
+      ],
+      "responses": [
+        "I’m available 24/7 to assist you!",
+        "I’m here whenever you need help, day or night.",
+        "I operate around the clock!",
+        "I'm always here to assist, any time!"
+      ]
+    },
+    {
+      "tag": "location",
+      "patterns": [
+        "Where are you located?",
+        "Where is your office?",
+        "What is your location?",
+        "Where can I find you?",
+        "Do you have a physical office?",
+        "What’s your address?"
+      ],
+      "responses": [
+        "I'm a virtual assistant, available anywhere you are!",
+        "I don’t have a physical location, but I’m here for you online!",
+        "My location is wherever you need assistance.",
+        "I exist in the cloud, ready to help!"
+      ]
+    },
+    {
+      "tag": "services",
+      "patterns": [
+        "What services do you offer?",
+        "How can you help me?",
+        "What can you do?",
+        "What assistance do you provide?",
+        "How do you help?",
+        "What are your capabilities?"
+      ],
+      "responses": [
+        "I can assist you with various queries, tasks, and information. How can I help you today?",
+        "I offer assistance with questions, tasks, and information. What would you like help with?",
+        "I can help with a range of services. Let me know what you need!",
+        "My services include providing answers, helping with tasks, and offering information."
+      ]
+    },
+    {
+      "tag": "payment",
+      "patterns": [
+        "What payment methods do you accept?",
+        "How can I pay?",
+        "What are your payment options?",
+        "Do you take credit cards?",
+        "Can I pay via PayPal?",
+        "What forms of payment do you accept?"
+      ],
+      "responses": [
+        "We accept credit cards, PayPal, and other popular payment methods.",
+        "You can make payments via various options including PayPal and credit cards.",
+        "Our payment options include credit cards and PayPal.",
+        "We offer several payment methods including credit cards and online payments."
+      ]
+    },
+    {
+      "tag": "shipping",
+      "patterns": [
+        "How long does shipping take?",
+        "What are your shipping options?",
+        "How fast is delivery?",
+        "When will my order arrive?",
+        "Do you offer express shipping?",
+        "Can I track my order?"
+      ],
+      "responses": [
+        "Shipping times vary depending on your location and selected option.",
+        "We offer standard and express shipping. You can track your order via the tracking link.",
+        "Delivery usually takes 3-5 business days, but express options are available.",
+        "You'll receive tracking details once your order has shipped!"
+      ]
+    },
+    {
+      "tag": "returns",
+      "patterns": [
+        "Can I return an item?",
+        "What is your return policy?",
+        "How do I return a product?",
+        "Do you accept returns?",
+        "Can I get a refund?"
+      ],
+      "responses": [
+        "We accept returns within 30 days of purchase.",
+        "Our return policy allows you to return items within 30 days for a full refund.",
+        "You can return products following our return policy guidelines.",
+        "If you're unsatisfied, you can return the product within the return window."
+      ]
+    },
+    {
+      "tag": "weather",
+      "patterns": [
+        "What’s the weather like?",
+        "How's the weather?",
+        "Tell me the weather",
+        "What's the weather forecast?",
+        "Is it going to rain today?",
+        "Will it be sunny tomorrow?"
+      ],
+      "responses": [
+        "Please check your local weather forecast for up-to-date information.",
+        "I can help you find a weather forecast. Where are you located?",
+        "You can get the latest weather updates on your preferred weather app.",
+        "Stay prepared! Check your local forecast for the latest weather."
+      ]
+    },
+    {
+      "tag": "jokes",
+      "patterns": [
+        "Tell me a joke",
+        "Do you know any jokes?",
+        "Make me laugh",
+        "Can you tell a funny joke?",
+        "I want to hear a joke"
+      ],
+      "responses": [
+        "Why don't skeletons fight each other? They don't have the guts!",
+        "Why did the math book look sad? It had too many problems.",
+        "Why don’t scientists trust atoms? Because they make up everything!",
+        "I told my computer I needed a break, and now it won’t stop sending me Kit-Kats."
+      ]
+    }
+  ]
+}
